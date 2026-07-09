@@ -262,4 +262,83 @@
     </div>
   </body>
   <script src="./script.js"></script>
+  <!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "Organization",
+      "@id": "https://riqardoproducts.com/#organization",
+      "name": "Riqardo Products",
+      "url": "https://riqardoproducts.com/",
+      "logo": "https://riqardoproducts.com/images/Riqardo-01.png",
+      "description": "Riqardo Products offers premium coffee and tea made from carefully selected ingredients. We are committed to delivering rich flavors, fresh products, and exceptional customer satisfaction.",
+      "telephone": "+91-9633730600",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "TC 74/312-2",
+        "addressLocality": "Trivandrum",
+        "addressRegion": "Kerala",
+        "postalCode": "695026",
+        "addressCountry": "IN"
+      },
+      "sameAs": [
+        "https://www.instagram.com/riqardo_products",
+        "https://api.whatsapp.com/send/?phone=919633730600"
+      ]
+    },
+
+    {
+      "@type": "AboutPage",
+      "@id": "https://riqardoproducts.com/about.html",
+      "url": "https://riqardoproducts.com/about.html",
+      "name": "About Us | Riqardo Products",
+      "headline": "About Riqardo Products",
+      "description": "Learn about Riqardo Products, our mission, commitment to premium tea and coffee, customer satisfaction, secure shopping, and quality beverages.",
+      "isPartOf": {
+        "@id": "https://riqardoproducts.com/#website"
+      },
+      "about": {
+        "@id": "https://riqardoproducts.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://riqardoproducts.com/images/coffee-beans-levitate-white-background_11zon.jpg"
+      },
+      "inLanguage": "en"
+    },
+
+    {
+      "@type": "WebSite",
+      "@id": "https://riqardoproducts.com/#website",
+      "url": "https://riqardoproducts.com/",
+      "name": "Riqardo Products",
+      "publisher": {
+        "@id": "https://riqardoproducts.com/#organization"
+      }
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://riqardoproducts.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About Us",
+          "item": "https://riqardoproducts.com/about.html"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
 </html>

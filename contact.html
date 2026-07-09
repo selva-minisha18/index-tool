@@ -257,4 +257,90 @@
     </div>
     <script src="./script.js"></script>
   </body>
+  <!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "Organization",
+      "@id": "https://riqardoproducts.com/#organization",
+      "name": "Riqardo Products",
+      "url": "https://riqardoproducts.com/",
+      "logo": "https://riqardoproducts.com/images/Riqardo-01.png",
+      "description": "Riqardo Products offers premium coffee and tea made from carefully selected ingredients. We provide quality beverages with secure shopping and excellent customer service.",
+      "telephone": "+91-9633730600",
+      "email": "info@riqardoproducts.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "TC 74/312-2",
+        "addressLocality": "Trivandrum",
+        "addressRegion": "Kerala",
+        "postalCode": "695026",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Support",
+        "telephone": "+91-9633730600",
+        "email": "info@riqardoproducts.com",
+        "availableLanguage": [
+          "English",
+          "Malayalam"
+        ]
+      },
+      "sameAs": [
+        "https://www.instagram.com/riqardo_products",
+        "https://api.whatsapp.com/send/?phone=919633730600"
+      ]
+    },
+
+    {
+      "@type": "WebSite",
+      "@id": "https://riqardoproducts.com/#website",
+      "url": "https://riqardoproducts.com/",
+      "name": "Riqardo Products",
+      "publisher": {
+        "@id": "https://riqardoproducts.com/#organization"
+      }
+    },
+
+    {
+      "@type": "ContactPage",
+      "@id": "https://riqardoproducts.com/contact.html",
+      "url": "https://riqardoproducts.com/contact.html",
+      "name": "Contact Us | Riqardo Products",
+      "headline": "Contact Riqardo Products",
+      "description": "Contact Riqardo Products for premium coffee and tea inquiries, customer support, wholesale information, and product assistance.",
+      "mainEntity": {
+        "@id": "https://riqardoproducts.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://riqardoproducts.com/#website"
+      },
+      "inLanguage": "en"
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://riqardoproducts.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contact Us",
+          "item": "https://riqardoproducts.com/contact.html"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
 </html>
